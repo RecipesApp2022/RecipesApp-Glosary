@@ -8,7 +8,7 @@ First Header  | Second Header
 04  | How to create components in React?
 05  | When to use a Class Component over a Function Component?
 06  | What is the difference between HTML and React event handling?
-07  | Content Cell
+07  | What is state in React?
 08  | Content Cell
 09  | Content Cell
 10  | Content Cell
@@ -109,4 +109,31 @@ In HTML, you need to invoke the function by appending () Whereas in react you sh
 [Subir](#top
 
 
+## What is state in React?
 
+State of a component is an object that holds some information that may change over the lifetime of the component. We should always try to make our state as simple as possible and minimize the number of stateful components.
+
+Let's create a user component with message state,
+
+´´´bass
+
+class User extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      message: 'Welcome to React world'
+    }
+  }
+
+  render() {
+    return (
+      <div>
+        <h1{this.state.message}/h1>
+      </div>
+    )
+  }
+}
+´´´
+
+[Subir](#top)
