@@ -47,7 +47,8 @@ Uses reusable/composable UI components to develop the view.
 
 JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML). Basically it just provides syntactic sugar for the React.createElement() function, giving us expressiveness of JavaScript along with HTML like template syntax.
 
-In the example below text inside <h1> tag is returned as JavaScript function to the render function.
+In the example below text inside h1
+tag is returned as JavaScript function to the render function.
 
 [Subir](#top)
 
@@ -56,7 +57,8 @@ In the example below text inside <h1> tag is returned as JavaScript function to 
 There are two possible ways to create a component.
 
 Function Components: This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as the first parameter and return React elements:
-
+  
+```bass
 function Greeting({ message }) {
   return <h1>{`Hello, ${message}`}</h1>
 
@@ -68,8 +70,10 @@ class Greeting extends React.Component {
     return <h1>{`Hello, ${this.props.message}`}</h1>
   }
 }
-
-[Subir](#top
+  
+```
+  
+[Subir](#top)
 
 
 ## When to use a Class Component over a Function Component?
@@ -84,6 +88,7 @@ Below are some of the main differences between HTML and React event handling,
 
 In HTML, the event name usually represents in lowercase as a convention:
 
+```bass 
 <button onclick='activateLasers()'>
 Whereas in React it follows camelCase convention:
 
@@ -97,6 +102,8 @@ function handleClick(event) {
   event.preventDefault()
   console.log('The link was clicked.')
 }
+  
+```
 In HTML, you need to invoke the function by appending () Whereas in react you should not append () with the function name. (refer "activateLasers" function in the first point for example)
 
 [Subir](#top
