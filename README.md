@@ -1,1 +1,1 @@
-# RecipesApp-Glosary
+# Recipes App Glosary
