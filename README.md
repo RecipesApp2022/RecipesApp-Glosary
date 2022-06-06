@@ -1,4 +1,4 @@
-# Recipes App Glosary
+# Recipes App Glossary
 
 First Header  | Second Header
 ------------- | -------------
@@ -109,14 +109,4 @@ In HTML, you need to invoke the function by appending () Whereas in react you sh
 [Subir](#top
 
 
-## What is React?
 
-React is an open-source front-end JavaScript library that is used for building user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps. React was created by Jordan Walke, a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
-
-[Subir](#top)
-
-## What is React?
-
-React is an open-source front-end JavaScript library that is used for building user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps. React was created by Jordan Walke, a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
-
-[Subir](#top
